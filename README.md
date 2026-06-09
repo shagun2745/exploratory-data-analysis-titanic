@@ -2,15 +2,11 @@
 
 ## Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to uncover patterns, trends, and relationships between different passenger attributes and survival outcomes.
+This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to uncover patterns, trends, and relationships between passenger characteristics and survival outcomes.
 
-## Objectives
+The analysis uses statistical summaries and visualizations to gain insights into the dataset and identify important factors that may influence survival.
 
-- Analyze dataset structure and statistics
-- Explore distributions of important features
-- Identify correlations between variables
-- Visualize patterns using graphs and heatmaps
-- Generate meaningful insights from the data
+---
 
 ## Technologies Used
 
@@ -19,56 +15,111 @@ This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to 
 - Matplotlib
 - Seaborn
 
+---
+
 ## Dataset
 
-Titanic Passenger Dataset
+**Titanic Passenger Dataset**
 
-## Analysis Performed
+The dataset contains information about passengers aboard the Titanic, including:
 
-### 1. Statistical Summary
-Generated descriptive statistics including:
-- Mean
-- Median
-- Standard Deviation
-- Minimum and Maximum Values
+- Passenger Class (Pclass)
+- Name
+- Sex
+- Age
+- Number of Siblings/Spouses (SibSp)
+- Number of Parents/Children (Parch)
+- Fare
+- Embarkation Port
+- Survival Status
 
-### 2. Survival Distribution
-Visualized the number of passengers who survived and did not survive.
+---
 
-### 3. Age Distribution
-Analyzed passenger age patterns using histograms.
+## Project Objectives
 
-### 4. Passenger Class Distribution
-Examined the distribution of passengers across different ticket classes.
+- Perform exploratory data analysis on the dataset
+- Generate statistical summaries
+- Visualize important distributions
+- Identify correlations among variables
+- Extract meaningful insights from the data
 
-### 5. Correlation Analysis
-Created a correlation heatmap to identify relationships among numerical features.
+---
+
+## Statistical Summary
+
+The dataset contains:
+
+- 891 passenger records
+- 11 features
+- No missing values after preprocessing
+
+Key statistics such as mean, median, standard deviation, minimum, and maximum values were generated using Pandas.
+
+---
+
+## Visualizations
+
+### 1. Survival Distribution
+
+![Survival Distribution](eda_survival_distribution.png)
+
+This visualization shows the number of passengers who survived and those who did not survive.
+
+---
+
+### 2. Age Distribution
+
+![Age Distribution](eda_age_distribution.png)
+
+This histogram illustrates the age distribution of passengers aboard the Titanic.
+
+---
+
+### 3. Passenger Class Distribution
+
+![Passenger Class Distribution](eda_pclass_distribution.png)
+
+This chart displays the distribution of passengers across different ticket classes.
+
+---
+
+### 4. Correlation Heatmap
+
+![Correlation Heatmap](eda_correlation_heatmap.png)
+
+The heatmap highlights relationships between numerical variables and helps identify factors associated with survival.
+
+---
 
 ## Key Insights
 
-- Most passengers did not survive.
-- Passenger class showed a significant relationship with survival.
-- Age distribution was concentrated among young and middle-aged passengers.
-- Fare and passenger class exhibited notable correlations.
-- Several variables contributed to survival outcomes.
+- Most passengers did not survive the disaster.
+- Passenger class significantly influenced survival chances.
+- The majority of passengers were young and middle-aged adults.
+- Fare and passenger class showed notable relationships.
+- Several passenger attributes exhibited correlations with survival outcomes.
 
-## Generated Visualizations
-
-- Survival Distribution Chart
-- Age Distribution Histogram
-- Passenger Class Distribution Chart
-- Correlation Heatmap
+---
 
 ## Learning Outcomes
 
 This project provided practical experience in:
 
 - Data Exploration
+- Data Cleaning Verification
 - Statistical Analysis
 - Data Visualization
 - Correlation Analysis
 - Insight Generation
 
+---
+
 ## Conclusion
 
-The EDA process helped uncover meaningful patterns and relationships within the Titanic dataset, demonstrating how exploratory analysis can support data-driven decision-making and prepare datasets for machine learning applications.
+Exploratory Data Analysis helped uncover important patterns and trends within the Titanic dataset. The generated visualizations and statistical summaries provide a strong foundation for further predictive modeling and machine learning applications.
+
+---
+
+## Author
+
+**Shagun**
